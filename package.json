@@ -1,5 +1,5 @@
 {
-  "name": "pikachu-project",
+  "name": "travel-gen-ai-webapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.36.0",
+    "antd": "^5.17.3",
+    "axios": "^1.6.8",
+    "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
   }
 }
